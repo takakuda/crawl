@@ -1,5 +1,3 @@
 defmodule Misc do
-  def sort(values) do
-    Enum.sort(values)
-  end
+  def sort(values), do: Enum.sort(values)
 end
